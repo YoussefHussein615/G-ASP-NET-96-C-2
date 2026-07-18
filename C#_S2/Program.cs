@@ -121,13 +121,13 @@
         //title ??= "None";
         //Console.WriteLine(title);
         #endregion
-
+        #region q16
         //Console.WriteLine("_______________________________________________");
 
         //string? name = "Ali";
         //string confirmedName = name!;
         //Console.WriteLine(confirmedName);
-
+        #endregion
     }
 }
 }
