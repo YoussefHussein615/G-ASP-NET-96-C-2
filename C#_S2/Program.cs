@@ -67,14 +67,13 @@
         //int no_pages = Convert.ToInt32(pagesText);
         //Console.WriteLine(no_pages);
         #endregion
+        #region q8
+        //string yearText = "2026";
+        //int year = int.Parse(yearText);
+        //Console.WriteLine(year);
+        #endregion
 
-        Console.WriteLine("_______________________________________________");
-
-string yearText = "2026";
-int year = int.Parse(yearText);
-Console.WriteLine(year);
-
-string badText = "FGH";
+        string badText = "FGH";
 
 if (int.TryParse(badText, out int Result))
 {
