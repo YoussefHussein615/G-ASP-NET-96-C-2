@@ -57,17 +57,18 @@
         //Console.WriteLine(pagesAsDouble);
         #endregion
         #region q6
-           //double price = 50.99;
-           //int roundedPrice = (int)price;
-           //Console.WriteLine(roundedPrice);
-         #endregion
+        //double price = 50.99;
+        //int roundedPrice = (int)price;
+        //Console.WriteLine(roundedPrice);
+        #endregion
 
+        #region q7
+        //string pagesText = "464";
+        //int no_pages = Convert.ToInt32(pagesText);
+        //Console.WriteLine(no_pages);
+        #endregion
 
-string pagesText = "464";
-int no_pages = Convert.ToInt32(pagesText);
-Console.WriteLine(no_pages);
-
-Console.WriteLine("_______________________________________________");
+        Console.WriteLine("_______________________________________________");
 
 string yearText = "2026";
 int year = int.Parse(yearText);
