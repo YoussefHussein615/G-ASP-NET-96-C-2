@@ -51,11 +51,12 @@
         // }
         #endregion
 
-        int No_of_pages = 300;
-double pagesAsDouble = No_of_pages;
-Console.WriteLine(pagesAsDouble);
-
-Console.WriteLine("_______________________________________________");
+        #region q5
+        //int No_of_pages = 300;
+        //double pagesAsDouble = No_of_pages;
+        //Console.WriteLine(pagesAsDouble);
+        #endregion
+Console.WriteLine"_______________________________________________");
 
 double price = 50.99;
 int roundedPrice = (int)price;
