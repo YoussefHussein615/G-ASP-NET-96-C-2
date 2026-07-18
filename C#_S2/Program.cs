@@ -109,12 +109,11 @@
         //string? reviewer = null;
         //Console.WriteLine(reviewer is null);
         #endregion
-        
+        #region q14
         //Book? book1 = null;
         //string? title = book1?.Title;
         //Console.WriteLine(title);
-
-        //Console.WriteLine("_______________________________________________");
+        #endregion
 
         //Console.WriteLine(title ?? "None");
 
