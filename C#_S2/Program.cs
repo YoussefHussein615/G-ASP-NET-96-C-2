@@ -114,11 +114,13 @@
         //string? title = book1?.Title;
         //Console.WriteLine(title);
         #endregion
-
+        #region q15
+        //string? title = null;
         //Console.WriteLine(title ?? "None");
 
         //title ??= "None";
         //Console.WriteLine(title);
+        #endregion
 
         //Console.WriteLine("_______________________________________________");
 
