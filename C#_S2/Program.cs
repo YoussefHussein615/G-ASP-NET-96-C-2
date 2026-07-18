@@ -105,30 +105,28 @@
         //year1 = 2023;
         //Console.WriteLine(year1.Value);
         #endregion
-Console.WriteLine("_______________________________________________");
+        #region q13
+        //string? reviewer = null;
+        //Console.WriteLine(reviewer is null);
+        #endregion
+        
+        //Book? book1 = null;
+        //string? title = book1?.Title;
+        //Console.WriteLine(title);
 
-string? reviewer = null;
-Console.WriteLine(reviewer is null);
+        //Console.WriteLine("_______________________________________________");
 
-Console.WriteLine("_______________________________________________");
+        //Console.WriteLine(title ?? "None");
 
-Book? book1 = null;
-string? title = book1?.Title;
-Console.WriteLine(title);
+        //title ??= "None";
+        //Console.WriteLine(title);
 
-Console.WriteLine("_______________________________________________");
+        //Console.WriteLine("_______________________________________________");
 
-Console.WriteLine(title ?? "None");
+        //string? name = "Ali";
+        //string confirmedName = name!;
+        //Console.WriteLine(confirmedName);
 
-title ??= "None";
-Console.WriteLine(title);
-
-Console.WriteLine("_______________________________________________");
-
-string? name = "Ali";
-string confirmedName = name!;
-Console.WriteLine(confirmedName);
-
-        }
     }
+}
 }
