@@ -84,12 +84,12 @@
         //   Console.WriteLine("Invalid number");
         // }
         #endregion
-Console.WriteLine("_______________________________________________");
-
-int pagesNo = 464;
-string pagestext = pages.ToString();
-Console.WriteLine(pagesText);
-Console.WriteLine(pagesText.GetType());
+        #region q10
+         //int pagesNo = 464;
+         //string pagestext = pages.ToString();
+         //Console.WriteLine(pagesText);
+         //Console.WriteLine(pagesText.GetType());
+        #endregion
 
 Console.WriteLine("_______________________________________________");
 
