@@ -3,23 +3,25 @@
     internal class Program
 
     {
-        public class Book
-        {
-            public string? Title;
-            public int Pages;
+        #region Question 1
+        //public class Book
+        //{
+        //    public string? Title;
+        //    public int Pages;
 
-            //public override string ToString()
-            //{
-            //return $"Title: {Title}, Pages: {Pages}";
-            //}
-        }
+        //    //public override string ToString()
+        //    //{
+        //    //return $"Title: {Title}, Pages: {Pages}";
+        //    //}
+        //}
 
 
-        static void Main(string[] args)
-        {
-            Book book = new Book { Title = "C# Tutorial", Pages = 209 };
-            object obj = book;
-            Console.WriteLine(obj);
+        //static void Main(string[] args)
+        //{
+        //    Book book = new Book { Title = "C# Tutorial", Pages = 209 };
+        //    object obj = book;
+        //    Console.WriteLine(obj);
+           #endregion
             Console.WriteLine(book.ToString());
             Console.WriteLine(book.Equals(book));
             Console.WriteLine(book.GetHashCode());
@@ -85,8 +87,8 @@
             Console.WriteLine("_______________________________________________");
 
             int copies = 100;
-            object boxed = copies;      
-            int unboxed = (int)boxed;    
+            object boxed = copies;
+            int unboxed = (int)boxed;
             Console.WriteLine(boxed);
             Console.WriteLine(unboxed);
 
@@ -106,7 +108,7 @@
             Console.WriteLine("_______________________________________________");
 
             Book? book1 = null;
-            string? title = book1?.Title; 
+            string? title = book1?.Title;
             Console.WriteLine(title);
 
             Console.WriteLine("_______________________________________________");
