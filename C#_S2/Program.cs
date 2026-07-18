@@ -72,18 +72,18 @@
         //int year = int.Parse(yearText);
         //Console.WriteLine(year);
         #endregion
+        #region q9
+        //string badText = "FGH";
 
-        string badText = "FGH";
-
-if (int.TryParse(badText, out int Result))
-{
-    Console.WriteLine(Result);
-}
-else
-{
-    Console.WriteLine("Invalid number");
-}
-
+        //if (int.TryParse(badText, out int Result))
+        // {
+        //   Console.WriteLine(Result);
+        // }
+        //else
+        // {
+        //   Console.WriteLine("Invalid number");
+        // }
+        #endregion
 Console.WriteLine("_______________________________________________");
 
 int pagesNo = 464;
