@@ -30,26 +30,28 @@
         //Console.WriteLine(book.GetType());
         #endregion
 
-        #region question 3
+          #region question 3
         //int pages = "464"; compile error
         string pages = "464";
         #endregion
 
-            try
-            {
-                int zero = 0;
-        int result = 10 / zero;
-    }
-            catch (DivideByZeroException)
-            {
-                Console.WriteLine(" ERROR : Cannot divide by zero ");
-            }
-            finally
-            {
-    Console.WriteLine("Done");
-}
+        #region question 4
+        //try
+        //{
+        //    int zero = 0;
+        //    int result = 10 / zero;
+        //}
+        //catch (DivideByZeroException)
+        //{
+        //    Console.WriteLine(" ERROR : Cannot divide by zero ");
+        //}
+        //finally
+        //{
+        //  Console.WriteLine("Done");
+        // }
+        #endregion
 
-int No_of_pages = 300;
+        int No_of_pages = 300;
 double pagesAsDouble = No_of_pages;
 Console.WriteLine(pagesAsDouble);
 
