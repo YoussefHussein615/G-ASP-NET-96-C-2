@@ -98,13 +98,13 @@
         //Console.WriteLine(boxed);
         //Console.WriteLine(unboxed);
         #endregion
+        #region q12
+        //int? year1 = null;
+        //Console.WriteLine(year1.HasValue);
 
-        int? year1 = null;
-Console.WriteLine(year1.HasValue);
-
-year1 = 2023;
-Console.WriteLine(year1.Value);
-
+        //year1 = 2023;
+        //Console.WriteLine(year1.Value);
+        #endregion
 Console.WriteLine("_______________________________________________");
 
 string? reviewer = null;
