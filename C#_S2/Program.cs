@@ -85,23 +85,21 @@
         // }
         #endregion
         #region q10
-         //int pagesNo = 464;
-         //string pagestext = pages.ToString();
-         //Console.WriteLine(pagesText);
-         //Console.WriteLine(pagesText.GetType());
+        //int pagesNo = 464;
+        //string pagestext = pages.ToString();
+        //Console.WriteLine(pagesText);
+        //Console.WriteLine(pagesText.GetType());
         #endregion
 
-Console.WriteLine("_______________________________________________");
+        #region q11
+        //int copies = 100;
+        //object boxed = copies;
+        //int unboxed = (int)boxed;
+        //Console.WriteLine(boxed);
+        //Console.WriteLine(unboxed);
+        #endregion
 
-int copies = 100;
-object boxed = copies;
-int unboxed = (int)boxed;
-Console.WriteLine(boxed);
-Console.WriteLine(unboxed);
-
-Console.WriteLine("_______________________________________________");
-
-int? year1 = null;
+        int? year1 = null;
 Console.WriteLine(year1.HasValue);
 
 year1 = 2023;
