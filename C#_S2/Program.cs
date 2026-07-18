@@ -56,13 +56,12 @@
         //double pagesAsDouble = No_of_pages;
         //Console.WriteLine(pagesAsDouble);
         #endregion
-Console.WriteLine"_______________________________________________");
+        #region q6
+           //double price = 50.99;
+           //int roundedPrice = (int)price;
+           //Console.WriteLine(roundedPrice);
+         #endregion
 
-double price = 50.99;
-int roundedPrice = (int)price;
-Console.WriteLine(roundedPrice);
-
-Console.WriteLine("_______________________________________________");
 
 string pagesText = "464";
 int no_pages = Convert.ToInt32(pagesText);
